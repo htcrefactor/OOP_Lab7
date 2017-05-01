@@ -1,6 +1,6 @@
 package oop.ajou.ac.kr;
 
-public class Laptop extends Product implements Networked {
+public class Laptop extends Product implements Networked,DataStorage {
 	
 	double totalCapacity;
 	double usedCapacity;
