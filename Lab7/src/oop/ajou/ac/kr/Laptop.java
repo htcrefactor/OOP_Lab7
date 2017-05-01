@@ -5,7 +5,9 @@ public class Laptop extends Product implements Networked {
 	double totalCapacity;
 	double usedCapacity;
 	
-	Laptop(){};
+	Laptop(){
+		System.out.println("We create the Laptop method.");
+	};
 	
 	public double getFreeCapacity(){
 		return 0;
