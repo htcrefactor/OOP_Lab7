@@ -2,7 +2,7 @@ package oop.ajou.ac.kr;
 
 abstract public class Product 
 {
-	private double price;
+	private double price;      
 	
 	public double getPrice() 
 	{
