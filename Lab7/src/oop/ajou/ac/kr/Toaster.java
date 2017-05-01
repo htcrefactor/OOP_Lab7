@@ -2,7 +2,7 @@ package oop.ajou.ac.kr;
 
 public class Toaster extends Product implements Cooker
 {
-	Toaster()
+	Toaster() // This is a constructor !
 	{
 		System.out.println("Toaster has been created !");
 	}
