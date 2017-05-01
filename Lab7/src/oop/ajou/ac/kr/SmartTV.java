@@ -5,7 +5,7 @@ public class SmartTV extends Product implements Networked{
 	
 	SmartTV()
 	{
-		System.out.println("We create the SmartTV method");
+		System.out.println("We create the SmartTV.");
 	}
 
 	public double maxSpeed()
@@ -15,7 +15,7 @@ public class SmartTV extends Product implements Networked{
 	
 	public String getName()
 	{
-		return "This is SmartTV!!";
+		return "Bronze SmartTV";
 	}
 	
 	public int getChannel() {
