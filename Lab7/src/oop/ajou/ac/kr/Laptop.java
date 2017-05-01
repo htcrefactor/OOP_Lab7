@@ -5,15 +5,11 @@ public class Laptop extends Product implements Networked {
 	double totalCapacity;
 	double usedCapacity;
 	
-	Laptop(){
-		System.out.println("This is Labtop");
-	}
+	Laptop(){};
 	
-	double getFreeCapacity(){
+	public double getFreeCapacity(){
 		return 0;
 	}
-	//kkk
-	
 	
 	public void format(){
 		System.out.println("Start formating.");
