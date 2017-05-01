@@ -12,6 +12,7 @@ public class Laptop extends Product implements Networked {
 	double getFreeCapacity(){
 		return 0;
 	}
+	//kkk
 	
 	
 	public void format(){
