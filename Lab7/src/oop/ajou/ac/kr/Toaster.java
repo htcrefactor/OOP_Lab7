@@ -4,7 +4,7 @@ public class Toaster extends Product implements Cooker
 {
 	Toaster() // This is a constructor !
 	{
-		System.out.println("Toaster has been created !");
+		System.out.println("We create the Toaster.");
 	}
 	
 	public String prepareFood()
