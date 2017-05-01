@@ -6,7 +6,7 @@ public class Laptop extends Product implements Networked,DataStorage {
 	double usedCapacity;
 	
 	Laptop(){
-		System.out.println("We create the Laptop method.");
+		System.out.println("We create the Laptop.");
 	};
 	
 	public double getFreeCapacity(){
